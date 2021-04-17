@@ -42,6 +42,7 @@ h1
 h2
 {
     color: red;
+    text-align: center;
 }
 h4
 {
@@ -65,19 +66,21 @@ p
 }
 .headings
 {
-    text-align: center;
     background-image:linear-gradient(white 30%, rgb(22, 200, 444) 100%);
+    padding-bottom: 15px;
+    width: 800px;
+    margin: 0 auto;
 }
 .weird
 {
+    padding-top: 35px;
     background-image: url('weird.jpeg');
-    color: black;
     text-align: center;
+    color: black;
 }
 h3
 {
     color: orange;
-    font-size: 2.5em;
 }
 /*--shadow end of parts--------------*/
 .degrade
