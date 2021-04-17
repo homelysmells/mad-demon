@@ -50,16 +50,25 @@ h1
 h2
 {
     color: red;
+    font-family: 'robotoblack';
     text-align: center;
+}
+h3
+{
+    font-family: 'robotoblack';
+    padding-right: 100px;
+    float: right;
 }
 h4
 {
     color: red;
+    font-family: 'robotoblack';
     background-color: grey;
 }
 p
 {
     color: red;
+    font-family: 'robotoblack';
     width: 8em;
     border-radius: 9px;
     background-color: blue;
@@ -85,10 +94,6 @@ p
     background-image: url('weird.jpeg');
     text-align: center;
     color: black;
-}
-h3
-{
-    color: orange;
 }
 /*--shadow end of parts--------------*/
 .degrade
