@@ -29,12 +29,20 @@ p
 {
     font-family: 'robotoregular', sans-serif;
 }
+.links
+{
+    background-image: url(frank.jpg);
+    text-align: center;
+}
+.main-heading
+{
+    background-image:linear-gradient(white 60%, rgb(444, 229, 229) 100%);
+}
 h1
 {
     text-transform: uppercase;
     font-family: 'robotoblack';
     text-align: center;
-    background-image:linear-gradient(white 60%, rgb(444, 229, 229) 100%);
     color: black;
     font-size: 5em;
     margin-bottom: 0;
@@ -123,19 +131,6 @@ nav li
 {
     padding: 28px 0px;
 }
-nav a
-{
-    text-decoration: none;
-    font-size: 2.2em;
-    padding-top: 17px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: rgb(114, 106, 106);
-}
-nav a:hover
-{
-    border-top: 3px solid rgb(92, 173, 211);
-}
 /*--Accueil part----------------------------------*/
 .text_button h1
 {
@@ -163,11 +158,6 @@ nav a:hover
     background-repeat: no-repeat;
     background-position: center;
     height: 550px;
-}
-.child_img
-{
-    width: 100%;
-
 }
 .semi_circle_left
 {
@@ -267,15 +257,6 @@ nav a:hover
     width: 50px;
     margin-left: 5px;
 }
-.img_computer
-{
-    background-image: url('images/main-feature.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 600px;
-    height: 360px;
-    margin: auto;
-}
 .relative_icons
 {
     position: relative;
@@ -372,15 +353,6 @@ nav a:hover
     height: 95px;
     line-height: 95px;
 }
-.galery_button a
-{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: rgb(92, 90, 90);
-    font-size: 2.5em;
-}
 .radius_left
 {
     border-radius: 5px 0px 0px 5px;
@@ -388,16 +360,6 @@ nav a:hover
 .radius_right
 {
     border-radius: 0px 5px 5px 0px;
-}
-.galery_button a:hover
-{
-    color: white;
-    background-color: rgb(92, 173, 211);
-    border-bottom: 5px solid rgb(41, 117, 153);
-}
-.galery_button a:hover >.arrow
-{
-    display: block;
 }
 .arrow
 {
@@ -418,17 +380,6 @@ nav a:hover
     align-items: center;
     background-color: green;
 }
-.portfolio_img_size
-{
-    width: 480px;
-}
-img
-{
-    width: 100%;
-}
-
-/* Changer pendant la vidéo */
-
 .test
 {
     /*background-color: tomato;*/
